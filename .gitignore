@@ -1,3 +1,8 @@
+__pycache__/
+.venv/
+.env
 .git
-.venv
-.idea
+.DS_Store
+.vscode/
+postgres-data/
+pgdata/
