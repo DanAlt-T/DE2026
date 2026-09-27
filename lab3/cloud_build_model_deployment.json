@@ -99,7 +99,7 @@
       "entrypoint": "/bin/sh",
       "args": [
         "-c",
-        "gcloud run services list --platform managed | grep  https://prediction-api | head -1 | awk '{print $4}' > /workspace/api_url.text"
+        "gcloud run services list --platform managed | grep  https://prediction-api | awk '{print $4}' > /workspace/api_url.text"
       ],
       "waitFor": [
         "sleep-delay"
