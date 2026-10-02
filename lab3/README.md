@@ -1,1 +1,1 @@
-Lab 3 CI/CD trigger test
+Lab 3 CI/CD trigger test us region
